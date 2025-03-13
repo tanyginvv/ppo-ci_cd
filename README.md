@@ -1,10 +1,4 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const IndexPage = () => (
   <Layout>
     <Seo title="Визитка" />
     <main className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -34,6 +28,3 @@ const IndexPage = () => (
       </div>
     </main>
   </Layout>
-)
-
-export default IndexPage
