@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BusinessCardPage = () => (
+const IndexPage = () => (
   <Layout>
     <Seo title="Визитка" />
     <main className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -25,9 +25,14 @@ const BusinessCardPage = () => (
             <a href="#" className="text-blue-500 hover:text-blue-700 transition">Facebook</a>
           </div>
         </div>
+        <div className="text-center mt-6">
+          <Link to="/" className="text-blue-500 hover:text-blue-700 transition">
+            Обновить страницу
+          </Link>
+        </div>
       </div>
     </main>
   </Layout>
 )
 
-export default BusinessCardPage
+export default IndexPage
