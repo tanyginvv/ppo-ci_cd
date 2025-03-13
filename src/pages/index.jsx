@@ -14,7 +14,7 @@ const BusinessCardPage = () => (
         </div>
         <div className="mb-6">
           <h2 className="text-xl font-bold mb-2">Контактная информация</h2>
-          <p className="text-gray-700">Email: ctanyginvv@mail.ru</p>
+          <p className="text-gray-700">Email: tanyginvv@mail.ru</p>
           <p className="text-gray-700">Телефон: +7 (902) 736-2844</p>
         </div>
         <div className="text-center">
