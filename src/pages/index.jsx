@@ -25,11 +25,6 @@ const IndexPage = () => (
             <a href="#" className="text-blue-500 hover:text-blue-700 transition">Facebook</a>
           </div>
         </div>
-        <div className="text-center mt-6">
-          <Link to="/" className="text-blue-500 hover:text-blue-700 transition">
-            Обновить страницу
-          </Link>
-        </div>
       </div>
     </main>
   </Layout>
